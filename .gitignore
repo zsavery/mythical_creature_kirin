@@ -1,1 +1,3 @@
-test/*
+.idea
+test
+.DS_Store
