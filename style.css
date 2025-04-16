@@ -1,0 +1,50 @@
+/* font for large text like headings or table titles.*/
+@font-face {
+    font-family: kirinFont;
+    src: url('fonts/Gorgeous\ Floral\ Monogram.ttf')
+}
+
+/* font for smaller font */
+@font-face {
+    font-family: kirinParaFont;
+    src: url(/fonts/GrundBurn-Regular.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: kirinFont, fantasy ;
+}
+
+li {
+    list-style-type:trad-chinese-informal ;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type */
+}
+/* Gallery page styling */
+
+.gallery-title {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+}
+.gallery {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-item {
+    display: inherit;
+    justify-content: center;
+    border: azure 2px groove;
+    border-radius: 10px;
+}
+.gallery-image {
+    margin: 10px;
+    border-radius: 10px;
+}
