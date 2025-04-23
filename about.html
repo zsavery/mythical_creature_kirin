@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Title</title>
-</head>
-<body>
-    <header>
-        <script src="sounds.js"></script>
-
+  </head>
+  <body>
+    <header class="header-con">
+      <h1>About the Kirin</h1>
+      <nav>
+        <ul class="links-con">
+          <li class="links"><a href="index.html">Home</a></li>
+          <li class="links"><a href="gallery.html">Gallery</a></li>
+          <li class="links"><a href="about.html">About</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <div class="creature-info">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae porro ad et animi?
-                Quo dolores quia laboriosam animi eligendi aliquid et, deleniti inventore. Quod ab illo incidunt.
-                Voluptatibus eligendi quam consequuntur, culpa rem nemo iusto perspiciatis accusantium nulla odit id nostrum.
-            </p>
+    <main class="bg">
+      <section class="about-con" id="about"> 
+        <h2 class="about-title">About Kirins</h2>
+        <div class="about-text-con">
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+            repudiandae porro ad et animi? Quo dolores quia laboriosam animi
+            eligendi aliquid et, deleniti inventore. Quod ab illo incidunt.
+            Voluptatibus eligendi quam consequuntur, culpa rem nemo iusto
+            perspiciatis accusantium nulla odit id nostrum.
+          </p>
         </div>
         <div class="sound-board">
-            <div class="sound-item">
-                <button class="soundEffect" id="lightning-sound">Lightning</button>
-            </div>
-            <div class="sound-item">
-                <button class="soundEffect" id="galloping-sound">Galloping</button>
-            </div>
-            <div class="sound-item">
-                <button class="soundEffect" id="thunder-sound">Thunder</button>
-            </div>
+          <div class="sound-item">
+            <button class="soundEffect" id="lightning-sound">Lightning</button>
+          </div>
+          <div class="sound-item">
+            <button class="soundEffect" id="galloping-sound">Galloping</button>
+          </div>
+          <div class="sound-item">
+            <button class="soundEffect" id="thunder-sound">Thunder</button>
+          </div>
         </div>
+      </section>
     </main>
     <footer>
-
+        <p class="footer-text">&copy; 2025 Kirin Studios Inc.</p>
+        <p class="footer-text">Webmaster: Zyon Savery</p>
     </footer>
 
-    
-</body>
+    <script src="sounds.js"></script>
+  </body>
 </html>
